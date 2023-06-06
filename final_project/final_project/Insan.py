@@ -51,5 +51,5 @@ class Insan:
     
     #Kullanıcı bilgilerini ekrana yazdırır
     def __str__(self):
-        return f"TC No: {self.__tcNo}\nAd: {self.__ad}\nSoyad: {self.__soyad}\nYaş: {self.__yas}\nCinsiyet: {self.__cinsiyet}\nUyruk: {self.__uyruk}"
+        return f"=================\nTC No: {self.__tcNo}\nAd: {self.__ad}\nSoyad: {self.__soyad}\nYaş: {self.__yas}\nCinsiyet: {self.__cinsiyet}\nUyruk: {self.__uyruk}"
 

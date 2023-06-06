@@ -1,8 +1,8 @@
-import Insan
+from Insan import Insan
 
 class Calisan(Insan):
-    def __init__(self, ad, soyad, yas, cinsiyet, uyruk, sektor, tecrube, maas):
-        super().__init__(ad, soyad, yas, cinsiyet, uyruk)
+    def __init__(self, tc,ad, soyad, yas, cinsiyet, uyruk, sektor, tecrube, maas):
+        super().__init__(tc,ad, soyad, yas, cinsiyet, uyruk)
         self.__sektor = sektor
         self.__tecrube = tecrube
         self.__maas = maas

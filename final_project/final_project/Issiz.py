@@ -1,7 +1,8 @@
-import Insan
+from Insan import Insan
+
 class Issiz(Insan):
-    def __init__(self, ad, soyad, yas, cinsiyet, uyruk, tecrube):
-        super().__init__(ad, soyad, yas, cinsiyet, uyruk)
+    def __init__(self, tc,ad, soyad, yas, cinsiyet, uyruk, tecrube):
+        super().__init__(tc,ad, soyad, yas, cinsiyet, uyruk)
         self.__tecrube = tecrube
         self.__statu = ""
 
