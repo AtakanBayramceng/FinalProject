@@ -1,7 +1,8 @@
-import Insan
+from Insan import Insan
+
 class Issiz(Insan):
-    def __init__(self, ad, soyad, tecrube):
-        super().__init__(ad, soyad, None, None, None)
+    def __init__(self, tc,ad, soyad, yas, cinsiyet, uyruk, tecrube):
+        super().__init__(tc,ad, soyad, yas, cinsiyet, uyruk)
         self.__tecrube = tecrube
         self.__statu = ""
 
@@ -24,7 +25,7 @@ class Issiz(Insan):
             else:
                 self.__statu = "yonetici"
         except:
-            print("Hata: Geçmiş tecrube bilgisi hatalı veya eksik.")
+            print("Hata: Geçmiş tecrube bilgisi hatali veya eksik.")
 
     def __str__(self):
         self.statu_bul()
